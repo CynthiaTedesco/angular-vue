@@ -2,7 +2,6 @@
   "name": "angular-vue-app",
   "private": true,
   "dependencies": {
-    "@vue/web-component-wrapper": "^1.3.0",
     "vue": "^3.4.27"
   },
   "workspaces": [
