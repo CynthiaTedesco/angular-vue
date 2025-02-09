@@ -10,5 +10,6 @@ import { FooterComponent } from './footer/footer.component'; // Import FooterCom
   imports: [HeaderComponent, FooterComponent], // Import the child components here
 })
 export class AppComponent {
-  title = 'angular-vue-app';
+  title = 'Angular App';
+  year = 2025;
 }
