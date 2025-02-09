@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component'; // Import HeaderComponent
+import { FooterComponent } from './footer/footer.component'; // Import FooterComponent
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.sass',
+  styleUrls: ['./app.component.sass'],
+  standalone: true,
+  imports: [HeaderComponent, FooterComponent], // Import the child components here
 })
 export class AppComponent {
   title = 'angular-vue-app';
