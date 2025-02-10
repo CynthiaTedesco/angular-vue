@@ -1,8 +1,7 @@
 import { defineCustomElement } from 'vue';
-import Header from './components/Header.ce.vue';
+import Header from './components/VueHeader.ce.vue';
+import Button from './components/VueButton.ce.vue';
 
-// Register the custom element
-const headerElement = defineCustomElement(Header);
-
-// Now define the custom element with the browser's Custom Elements API
-customElements.define('vue-header', headerElement);
+// Define the custom element with the browser's Custom Elements API
+customElements.define('vue-header', defineCustomElement(Header));
+customElements.define('vue-button', defineCustomElement(Button));

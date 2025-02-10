@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "postbuild": "copyfiles -u 1 dist/**/* ../angular-app/src/assets/vue",
     "preview": "vite preview"
   },
   "dependencies": {
