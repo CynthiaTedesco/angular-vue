@@ -10,7 +10,7 @@ withDefaults(
 </script>
 
 <template>
-  <div>Header from Vue {{ title }}</div>
+  <div>Header from Vue ({{ title }})</div>
 </template>
 
 <style scoped>

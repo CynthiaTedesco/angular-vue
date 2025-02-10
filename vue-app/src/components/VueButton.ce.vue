@@ -8,3 +8,10 @@ const increment = () => count.value++;
 <template>
   <button @click="increment">Clicked {{ count }} times</button>
 </template>
+
+<style scoped>
+button {
+  margin: 20px;
+  margin-left: 0;
+}
+</style>
